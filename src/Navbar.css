@@ -1,0 +1,28 @@
+nav {
+    background-color: #f8f8f8; /* Change this to your desired color */
+    font-family: Arial, sans-serif; /* Change this to your desired font */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    display: block;
+    color: black; /* Change this to your desired color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ddd; /* Change this to your desired color */
+}
