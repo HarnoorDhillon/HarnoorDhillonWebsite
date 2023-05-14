@@ -1,0 +1,29 @@
+.about-me {
+    background-color: black;
+    height: 50vh; /* adjust this as needed */
+    color: white; /* adjust this as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 200px; /* adjust this as needed */
+}
+
+.face-pic {
+    width: 200px; /* adjust this as needed */
+    height: 200px; /* adjust this as needed */
+    object-fit: cover;
+    border-radius: 25%; /* makes the image circular */
+}
+
+.about-details {
+    display: flex;
+    gap: 100px; /* adjust this as needed */
+    justify-content: center; /* centers the contents horizontally */
+    align-items: center; /* centers the contents vertically */
+}

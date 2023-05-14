@@ -1,6 +1,11 @@
 nav {
-    background-color: #f8f8f8; /* Change this to your desired color */
-    font-family: Arial, sans-serif; /* Change this to your desired font */
+    z-index: 1000; /* Or any high number to ensure it's on top */
+    font-family: Arial, sans-serif; 
+    position: fixed; /* makes the navbar stick to the top */
+    top: 0; /* positions the navbar at the very top of the screen */
+    width: 100%; /* makes the navbar span the full width of the screen */
+    background: rgba(128, 91, 91, 0.295); /* semi-transparent white background */
+    backdrop-filter: blur(8px);  /* creates the blur effect */
 }
 
 nav ul {
@@ -17,7 +22,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: black; /* Change this to your desired color */
+    color: white; /* Change this to your desired color */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
