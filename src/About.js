@@ -7,8 +7,9 @@ const About = () => {
   return (
     <Element name="about" className="element about" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="content-box">
-        <h1>I'M HARNOOR DHILLON</h1>
-        <p>Your paragraph here.</p>
+        <h1>I'm Harnoor Dhillon.</h1>
+        <p>I'm a student at <strong>UC Berkeley</strong> studying <strong>Computer Science</strong>. My academic focus has allowed me 
+          to build a solid foundation in coding principles, and I'm always excited about opportunities to apply these skills in new ways.</p>
       </div>
     </Element>
   );

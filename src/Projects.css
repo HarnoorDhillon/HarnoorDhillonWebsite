@@ -1,0 +1,47 @@
+.projects {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .projects h2 {
+    margin-bottom: 70px;
+    font-size: 32px; 
+  }
+  
+  .project-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-box {
+    width: 50%; /* adjust as needed */
+    height: 100px; /* adjust as needed */
+    background-color: white;
+    margin: 0 auto 0px; /* center the box and add margin to the bottom */
+    border-radius: 10px; /* add rounded corners */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+    position: relative; /* Position the .project-description relative to this */
+    overflow: hidden; /* Hide any part of .project-description that's outside this */
+}
+  
+  .project-box:hover .project-description {
+    opacity: 1;
+  }
+  
+  .project-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
