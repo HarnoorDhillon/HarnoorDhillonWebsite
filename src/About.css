@@ -26,3 +26,18 @@
     font-family: 'Ubuntu', sans-serif; /* Change to the font you prefer */
     font-size: 20px; /* Adjust the size as needed */
   }
+  .icon-container {
+    display: flex;
+    justify-content: center;  /* align the items in the center */
+    padding: 20px;
+  }
+  
+  .icon-container a {
+    color: #fff; /* you can change this to your preferred color */
+    margin: 0 10px; /* 0 top/bottom margin and 10px left/right margin */
+    transition: transform 0.3s ease; /* this will animate the transform property */
+  }
+  
+  .icon-container a:hover {
+    transform: scale(1.2); /* this will enlarge the icon to 120% of its original size when hovered */
+  }

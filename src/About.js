@@ -3,6 +3,7 @@ import { Element } from 'react-scroll';
 import TypingText from './TypingText';
 import './About.css';
 import backgroundImage from './images/stars.jpeg';
+import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -12,6 +13,17 @@ const About = () => {
         <TypingText />
         <p>I'm a student at <strong>UC Berkeley</strong> studying <strong>Computer Science</strong>. My academic focus has allowed me 
           to build a solid foundation in coding principles, and I'm always excited about opportunities to apply these skills in new ways.</p>
+          <div className="icon-container">
+            <a href="https://www.linkedin.com/in/harnoor-dhillon-447aa818a/" target="_blank" rel="noreferrer">
+              <FaLinkedin size={30} />
+            </a>
+            <a href="https://github.com/HarnoorDhillon" target="_blank" rel="noreferrer">
+              <FaGithub size={30} />
+            </a>
+            <a href="./Resume/Resume.pdf" target="_blank" rel="noreferrer">
+              <FaFileAlt size={30} />
+            </a>
+          </div>
       </div>
     </Element>
   );
