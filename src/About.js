@@ -20,7 +20,7 @@ const About = () => {
             <a href="https://github.com/HarnoorDhillon" target="_blank" rel="noreferrer">
               <FaGithub size={30} />
             </a>
-            <a href="./Resume/Resume.pdf" target="_blank" rel="noreferrer">
+            <a href="https://www.dropbox.com/s/uj8ej2xlcuxl6ky/Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
               <FaFileAlt size={30} />
             </a>
           </div>
