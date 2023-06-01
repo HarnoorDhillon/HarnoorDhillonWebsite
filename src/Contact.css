@@ -1,0 +1,7 @@
+.contact-container {
+    margin-top: 50px; /* This creates a gap */
+    padding: 20px;
+    height: 50vh;
+    background-size: cover;
+    color: white; /* Text color */
+  }

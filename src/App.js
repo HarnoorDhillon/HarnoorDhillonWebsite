@@ -4,6 +4,9 @@ import Navbar from './Navbar';
 import About from './About';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Parallax from './Parallax';
+import Contact from './Contact';
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
       <About />
       <AboutMe />
       <Projects />
+      <Parallax />
+      <Contact />
     </div>
   );
 }

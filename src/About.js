@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import TypingText from './TypingText';
 import './About.css';
-import backgroundImage from './images/stars.jpeg';
+import backgroundImage from './images/polar.jpeg';
 import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
 
 const About = () => {

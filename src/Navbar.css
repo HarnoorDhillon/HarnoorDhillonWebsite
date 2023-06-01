@@ -1,11 +1,11 @@
 nav {
-    z-index: 1000; /* Or any high number to ensure it's on top */
-    font-family: 'Ubuntu', sans-serif; 
-    position: fixed; /* makes the navbar stick to the top */
-    top: 0; /* positions the navbar at the very top of the screen */
-    width: 100%; /* makes the navbar span the full width of the screen */
-    background: rgba(14, 13, 13, 0.37); /* semi-transparent white background */
-    backdrop-filter: blur(8px);  /* creates the blur effect */
+    z-index: 1000;
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(14, 13, 13, 0.37);
+    backdrop-filter: blur(8px);
 }
 
 nav ul {
@@ -22,12 +22,20 @@ nav li {
 
 nav li a {
     display: block;
-    color: white; /* Change this to your desired color */
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #ddd; /* Change this to your desired color */
+    background-color: #ddd;
+}
+
+.resume-link {
+    font-weight: bold;
+}
+
+.resume-link i {
+    margin-left: 5px;
 }
