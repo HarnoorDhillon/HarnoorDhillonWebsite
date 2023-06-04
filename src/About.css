@@ -41,3 +41,16 @@
   .icon-container a:hover {
     transform: scale(1.2); /* this will enlarge the icon to 120% of its original size when hovered */
   }
+  .scroll-down-icon {
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 100%;
+  }
+  
+  .scroll-down-icon:hover {
+    transform: translateX(-50%) scale(1.2);
+  }

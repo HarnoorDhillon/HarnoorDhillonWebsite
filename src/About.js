@@ -4,6 +4,8 @@ import TypingText from './TypingText';
 import './About.css';
 import backgroundImage from './images/polar.jpeg';
 import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
+import { IoIosArrowDown } from 'react-icons/io';
+import { Link } from 'react-scroll';
 
 const About = () => {
   return (
@@ -25,7 +27,11 @@ const About = () => {
             </a>
           </div>
       </div>
+      <Link to="aboutme" spy={true} smooth={true} duration={500}>
+        <IoIosArrowDown className="scroll-down-icon" size={30} />
+      </Link>
     </Element>
+    
   );
 };
 

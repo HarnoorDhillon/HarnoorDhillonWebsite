@@ -8,6 +8,7 @@ import image5 from './images/image5.jpg';
 import image6 from './images/image6.jpg';
 import image7 from './images/image7.jpg';
 import image8 from './images/image8.jpg';
+import { Element } from 'react-scroll';
 
 const Projects = () => {
   const projects = [
@@ -22,16 +23,18 @@ const Projects = () => {
   ];
 
   return (
-    <section className="projects">
-      <h2>My Projects</h2>
-      <div className="project-columns">
-        {projects.map(project => (
-          <div className="project-box" style={{ backgroundImage: `url(${project.image})`, height: `${project.height}px` }} key={project.id}>
-            <div className="project-description">{project.description}</div>
-          </div>
-        ))}
-      </div>
-    </section>
+    <Element name="projects" className="element projects">
+      <section className="projects">
+        <h2>My Projects</h2>
+        <div className="project-columns">
+          {projects.map(project => (
+            <div className="project-box" style={{ backgroundImage: `url(${project.image})`, height: `${project.height}px` }} key={project.id}>
+              <div className="project-description">{project.description}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </Element>
   );
 }
 
