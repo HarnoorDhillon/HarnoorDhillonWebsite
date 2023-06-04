@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/HarnoorDhillonWebsite/static/css/main.1df93c29.css",
+    "main.js": "/HarnoorDhillonWebsite/static/js/main.6119783b.js",
+    "static/js/787.6568e1bc.chunk.js": "/HarnoorDhillonWebsite/static/js/787.6568e1bc.chunk.js",
+    "static/media/stars.jpeg": "/HarnoorDhillonWebsite/static/media/stars.8f5b5bbff083b1fb76d8.jpeg",
+    "static/media/fern.jpeg": "/HarnoorDhillonWebsite/static/media/fern.f01d0feaa20469b445f0.jpeg",
+    "static/media/polar.jpeg": "/HarnoorDhillonWebsite/static/media/polar.ec1a6d070e7576ab66da.jpeg",
+    "static/media/image1.jpg": "/HarnoorDhillonWebsite/static/media/image1.109790ee0c4f3b168dbf.jpg",
+    "static/media/image8.jpg": "/HarnoorDhillonWebsite/static/media/image8.e3b967a257409512bfd7.jpg",
+    "static/media/image7.jpg": "/HarnoorDhillonWebsite/static/media/image7.a9596fd898b6191c24a3.jpg",
+    "static/media/image6.jpg": "/HarnoorDhillonWebsite/static/media/image6.32a229cd283cbcb8a7f9.jpg",
+    "static/media/myface.jpeg": "/HarnoorDhillonWebsite/static/media/myface.e30e6e923448eaa65788.jpeg",
+    "static/media/image4.jpg": "/HarnoorDhillonWebsite/static/media/image4.f0790fff536c68f4025f.jpg",
+    "static/media/image2.jpg": "/HarnoorDhillonWebsite/static/media/image2.9952845fb5116d82a925.jpg",
+    "static/media/image3.jpg": "/HarnoorDhillonWebsite/static/media/image3.74cff20661ce28fd53cc.jpg",
+    "static/media/image5.jpg": "/HarnoorDhillonWebsite/static/media/image5.fe59061766e786587f96.jpg",
+    "index.html": "/HarnoorDhillonWebsite/index.html",
+    "main.1df93c29.css.map": "/HarnoorDhillonWebsite/static/css/main.1df93c29.css.map",
+    "main.6119783b.js.map": "/HarnoorDhillonWebsite/static/js/main.6119783b.js.map",
+    "787.6568e1bc.chunk.js.map": "/HarnoorDhillonWebsite/static/js/787.6568e1bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df93c29.css",
+    "static/js/main.6119783b.js"
+  ]
+}
