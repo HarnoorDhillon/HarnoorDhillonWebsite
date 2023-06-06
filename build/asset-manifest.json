@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HarnoorDhillonWebsite/static/css/main.1df93c29.css",
-    "main.js": "/HarnoorDhillonWebsite/static/js/main.6119783b.js",
+    "main.css": "/HarnoorDhillonWebsite/static/css/main.f137cf1f.css",
+    "main.js": "/HarnoorDhillonWebsite/static/js/main.a2ab99be.js",
     "static/js/787.6568e1bc.chunk.js": "/HarnoorDhillonWebsite/static/js/787.6568e1bc.chunk.js",
     "static/media/stars.jpeg": "/HarnoorDhillonWebsite/static/media/stars.8f5b5bbff083b1fb76d8.jpeg",
     "static/media/fern.jpeg": "/HarnoorDhillonWebsite/static/media/fern.f01d0feaa20469b445f0.jpeg",
@@ -16,12 +16,12 @@
     "static/media/image3.jpg": "/HarnoorDhillonWebsite/static/media/image3.74cff20661ce28fd53cc.jpg",
     "static/media/image5.jpg": "/HarnoorDhillonWebsite/static/media/image5.fe59061766e786587f96.jpg",
     "index.html": "/HarnoorDhillonWebsite/index.html",
-    "main.1df93c29.css.map": "/HarnoorDhillonWebsite/static/css/main.1df93c29.css.map",
-    "main.6119783b.js.map": "/HarnoorDhillonWebsite/static/js/main.6119783b.js.map",
+    "main.f137cf1f.css.map": "/HarnoorDhillonWebsite/static/css/main.f137cf1f.css.map",
+    "main.a2ab99be.js.map": "/HarnoorDhillonWebsite/static/js/main.a2ab99be.js.map",
     "787.6568e1bc.chunk.js.map": "/HarnoorDhillonWebsite/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1df93c29.css",
-    "static/js/main.6119783b.js"
+    "static/css/main.f137cf1f.css",
+    "static/js/main.a2ab99be.js"
   ]
 }
