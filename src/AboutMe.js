@@ -11,7 +11,7 @@ const AboutMe = () => {
           <img src={myFace} alt="My face" className="face-pic" />
           <div>
             <h2>About Me</h2>
-            <p>I'm a BALLER</p>
+            <p>Insert Text</p>
           </div>
           <div className="about-details">
             <div>
