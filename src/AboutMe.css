@@ -1,11 +1,11 @@
 .about-me {
     background-color: black;
+    background-size: cover;
     height: 50vh; /* adjust this as needed */
     color: white; /* adjust this as needed */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
 }
 
 .about-content {
