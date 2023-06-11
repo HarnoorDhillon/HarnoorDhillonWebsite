@@ -16,10 +16,10 @@ const About = () => {
         <p>I'm a student at <strong>UC Berkeley</strong> studying <strong>Computer Science</strong>. My academic focus has allowed me 
           to build a solid foundation in coding principles, and I'm always excited about opportunities to apply these skills in new ways.</p>
           <div className="icon-container">
-            <a href="https://www.linkedin.com/in/harnoor-dhillon-447aa818a/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/harnoor-dhillon-447aa818a/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={30} />
             </a>
-            <a href="https://github.com/HarnoorDhillon" target="_blank" rel="noreferrer">
+            <a href="https://github.com/HarnoorDhillon" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} />
             </a>
             <a href="https://www.dropbox.com/s/uj8ej2xlcuxl6ky/Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">

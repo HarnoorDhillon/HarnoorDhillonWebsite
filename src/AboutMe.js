@@ -24,7 +24,7 @@ const AboutMe = () => {
               <h3>Interests</h3>
               <p>Skiing, Hiking, Watching Sports</p>
               <h3>Employment</h3>
-              <p>SWE at Meta</p>
+              <p>Seeking Internships</p>
             </div>
           </div>
         </div>
