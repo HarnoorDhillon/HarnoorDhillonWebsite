@@ -21,7 +21,7 @@ import Project8 from './Project8';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <Routes>
