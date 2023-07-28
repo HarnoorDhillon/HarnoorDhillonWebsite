@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 import image1 from './images/image1.jpg';
 import image2 from './images/image2.jpg';
@@ -12,7 +13,7 @@ import { Element } from 'react-scroll';
 
 const Projects = () => {
   const projects = [
-    { id: 1, height: 400, image: image1, description: 'In Progress' },
+    { id: 1, height: 400, image: image1, description: 'Slide-5' },
     { id: 2, height: 400, image: image2, description: 'In Progress' },
     { id: 3, height: 400, image: image3, description: 'In Progress' },
     { id: 4, height: 400, image: image4, description: 'In Progress' },
@@ -29,7 +30,9 @@ const Projects = () => {
         <div className="project-columns">
           {projects.map(project => (
             <div className="project-box" style={{ backgroundImage: `url(${project.image})`, height: `${project.height}px` }} key={project.id}>
-              <div className="project-description">{project.description}</div>
+              <Link to={`/project${project.id}`}>
+                <div className="project-description">{project.description}</div>
+              </Link>
             </div>
           ))}
         </div>
