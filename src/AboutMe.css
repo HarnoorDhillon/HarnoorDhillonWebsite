@@ -1,8 +1,8 @@
 .about-me {
     background-color: black;
     background-size: cover;
-    height: 50vh; /* adjust this as needed */
-    color: white; /* adjust this as needed */
+    height: 50vh;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,19 +12,36 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 200px; /* adjust this as needed */
+    gap: 200px;
+    padding: 0 20px; /* Add some horizontal padding to prevent content from touching the edge of the screen */
 }
 
 .face-pic {
-    width: 200px; /* adjust this as needed */
-    height: 200px; /* adjust this as needed */
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 25%; /* makes the image circular */
+    border-radius: 50%;
+    flex-shrink: 0; /* Prevents the image from shrinking */
 }
 
 .about-details {
     display: flex;
-    gap: 100px; /* adjust this as needed */
-    justify-content: center; /* centers the contents horizontally */
-    align-items: center; /* centers the contents vertically */
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows the content to wrap onto the next line when there's not enough space */
+}
+
+/* This media query will take effect on screen widths up to 768px (typical for tablets and smaller) */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .about-details {
+        flex-direction: column;
+        gap: 50px;
+    }
 }
