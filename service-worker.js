@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HarnoorDhillonWebsite/precache-manifest.c5a40702627a230f2b4b9692b9e99765.js"
+  "/HarnoorDhillonWebsite/precache-manifest.3b2ba1ee63840dd95492ef9b04e4ae54.js"
 );
 
 workbox.clientsClaim();
