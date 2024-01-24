@@ -1,8 +1,17 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { useLocation } from 'react-router-dom'; 
 import './Navbar.css';
 
 const NavBar = () => {
+    const location = useLocation(); 
+    // Determine if the navbar should be hidden on the current route
+    const shouldHideNavbar = location.pathname === '/project1'; 
+
+    // Conditionally apply styles or render different content based on the route
+    if (shouldHideNavbar) {
+        return null; // 
+    }
     return (
         <nav>
             <ul>

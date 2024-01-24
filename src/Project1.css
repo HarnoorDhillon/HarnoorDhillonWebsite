@@ -1,0 +1,68 @@
+.project-cont {
+    position: relative;
+    z-index: 2000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; /* White text color */
+    padding: 20px;
+  }
+  
+  .project-desc {
+    all: initial; /* Reset all inherited styles */
+    display: block; /* Ensure it's not set to 'none' */
+    color: white; /* Set a visible color */
+    background-color: black; /* Temporary background for visibility */
+    font-size: 16px; /* Set a visible font size */
+    visibility: visible; /* Override any hidden visibility */
+    opacity: 1; /* Ensure full opacity */
+    padding-top: 0%;
+    padding-left: 0%;
+    max-width: 35%;
+    font-size: 20px
+  }
+  .project-desc .slide5-link,
+.project-desc .slide5-link:link,
+.project-desc .slide5-link:visited,
+.project-desc .slide5-link:hover,
+.project-desc .slide5-link:active {
+  color: white; /* Sets the link color to white */
+  text-decoration: underline; /* Optional: for the classic hyperlink look */
+}
+
+  .project-img {
+    flex: 1; /* Takes up half the container */
+  }
+  
+  .project-img img {
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 100%; /* Full width of its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  /* Button Styling */
+.project-cont .back-button {
+    all: initial;
+    position: absolute;
+    left: 0%; /* Adjust the value to move the button left; smaller values move it further left */
+    top: 0%;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to a pointer to indicate it's clickable */
+    text-align: center; /* Center the text inside */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Allows setting padding and margins */
+    font-size: 16px; /* Size of the text */
+    margin: 4px 2px; /* Margin around the button */
+    transition-duration: 0.4s; /* Smooth transition for hover effect */
+  }
+  
+  /* Button Hover Effect */
+  .project-cont .back-button:hover {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+  }
+  
