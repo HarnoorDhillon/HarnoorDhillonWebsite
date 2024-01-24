@@ -49,6 +49,7 @@
     transform: translateX(-50%);
     transition: transform 0.3s ease-in-out;
     border-radius: 100%;
+    cursor: pointer;
   }
   
   .scroll-down-icon:hover {

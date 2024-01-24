@@ -14,12 +14,12 @@ import { Element } from 'react-scroll';
 const Projects = () => {
   const projects = [
     { id: 1, height: 400, image: image1, description: 'Slide-5' },
-    { id: 2, height: 400, image: image2, description: 'In Progress' },
+    { id: 2, height: 400, image: image7, description: 'Secure File-Sharing System' },
     { id: 3, height: 400, image: image3, description: 'In Progress' },
     { id: 4, height: 400, image: image4, description: 'In Progress' },
     { id: 5, height: 400, image: image5, description: 'In Progress' },
     { id: 6, height: 400, image: image6, description: 'In Progress' },
-    { id: 7, height: 400, image: image7, description: 'In Progress' },
+    { id: 7, height: 400, image: image2, description: 'In Progress' },
     { id: 8, height: 400, image: image8, description: 'In Progress' },
   ];
 

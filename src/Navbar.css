@@ -29,7 +29,8 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #ddd;
+    cursor: pointer;
+    background-color: rgba(221, 221, 221, 0.185);
 }
 
 .resume-link {
